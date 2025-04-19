@@ -1,5 +1,5 @@
 body {
-    background-color: #f9f7fe;
+    background-color: white;
     font-family: sans-serif;
 }
 
@@ -7,35 +7,39 @@ h1 {
     text-align: center;
     font-family: sans-serif;
     font-size: 36px;
+    margin-top: 10px;
 }
 
 h2 {
     margin: 0 0 5px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 select {
     display: block;
     width: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
+    border-color: white;
     padding: 10px;
     font-size: 18px;
 }
 
 .container {
-    max-width: 600px;
-    margin: 60px auto;
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
+    max-width: 330px;
+    height: 600px;
+    margin: 50px auto;
+    background: rgb(234, 229, 232);
+    padding: 40px;
+    border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #ffffff42;
 }
 
 .city {
     display: flex;
-    margin: 10px 0;
+    margin: 20px 0px 20px 0px;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 20px 0px 20px 0px;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
@@ -45,21 +49,27 @@ select {
 
 .date {
     opacity: 0.7;
+    line-height: 30px;
+    font-size: 17px;
 }
 
 .time {
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bold;
+    color: #c476db;
+    display: inline-flex;
+    align-items: center;
 }
 
 .time small {
     font-size: 24px;
     vertical-align: middle;
-    line-height: 36px;
+    opacity: 80%;
+    margin-left: 10px;
 }
 
 footer {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.7);
 }

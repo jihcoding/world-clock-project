@@ -24,6 +24,32 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+
+  //  Tahiti
+  let tahitiElement = document.querySelector("#tahiti");
+  if (tahiti) {
+    let tahitiDateElement = tahitiElement.querySelector(".date");
+    let tahitiTimeElement = tahitiElement.querySelector(".time");
+    let tahitiTime = moment().tz("Pacific/Tahiti");
+
+    tahitiDateElement.innerHTML = tahitiTime.format("MMMM Do YYYY");
+    tahitiTimeElement.innerHTML = tahitiTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
+
+  //  Manila
+  let manilaElement = document.querySelector("#manila");
+  if (manila) {
+    let manilaDateElement = manilaElement.querySelector(".date");
+    let manilaTimeElement = manilaElement.querySelector(".time");
+    let manilaTime = moment().tz("Asia/Manila");
+
+    manilaDateElement.innerHTML = manilaTime.format("MMMM Do YYYY");
+    manilaTimeElement.innerHTML = manilaTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {
