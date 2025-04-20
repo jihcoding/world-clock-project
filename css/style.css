@@ -1,18 +1,23 @@
 body {
     background-color: white;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
     margin-top: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: #1aa59a;
+}
+
 h2 {
-    margin: 0 0 5px;
-    font-size: 24px;
+    margin: 0 0 4px;
+    font-size: 23px;
 }
 
 select {
@@ -21,14 +26,14 @@ select {
     border-radius: 10px;
     border-color: white;
     padding: 10px;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .container {
-    max-width: 330px;
+    max-width: 310px;
     height: 600px;
     margin: 50px auto;
-    background: rgb(234, 229, 232);
+    background: linear-gradient(90.4deg, rgb(255, 220, 163) 21.2%, rgb(129, 255, 239) 90.7%);
     padding: 40px;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -48,21 +53,21 @@ select {
 }
 
 .date {
-    opacity: 0.7;
+    opacity: 0.4;
     line-height: 30px;
     font-size: 17px;
 }
 
 .time {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    color: #c476db;
+    color: #1aa59a;
     display: inline-flex;
     align-items: center;
 }
 
 .time small {
-    font-size: 24px;
+    font-size: 20px;
     vertical-align: middle;
     opacity: 80%;
     margin-left: 10px;
@@ -70,6 +75,6 @@ select {
 
 footer {
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.7);
 }
